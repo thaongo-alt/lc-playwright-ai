@@ -1,0 +1,2001 @@
+{
+  "config": {
+    "argv": [
+      "C:\\Program Files\\nodejs\\node.exe",
+      "C:\\ai-zone\\e2e-tests\\node_modules\\@playwright\\test\\cli.js",
+      "test",
+      "--reporter=json"
+    ],
+    "configFile": "C:\\ai-zone\\e2e-tests\\playwright.config.ts",
+    "rootDir": "C:/ai-zone/e2e-tests/tests",
+    "failOnFlakyTests": false,
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 6
+    },
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "C:/ai-zone/e2e-tests/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {
+          "actualWorkers": 6
+        },
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/ai-zone/e2e-tests/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "quiet": false,
+    "reporter": [
+      [
+        "json"
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "shard": null,
+    "tags": [],
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.62.1",
+    "workers": 6,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "create-wishlist.spec.ts",
+      "file": "create-wishlist.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Create New Wishlist",
+          "file": "create-wishlist.spec.ts",
+          "line": 15,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Logged in",
+              "file": "create-wishlist.spec.ts",
+              "line": 18,
+              "column": 17,
+              "specs": [],
+              "suites": [
+                {
+                  "title": "Accessing Create Wishlist",
+                  "file": "create-wishlist.spec.ts",
+                  "line": 21,
+                  "column": 10,
+                  "specs": [
+                    {
+                      "title": "clicking \"Add New\" on the Wishlists List Page opens the Create New Wishlist modal",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 22062,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:53:41.867Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-7cd04ba3793d35d074e6",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 23,
+                      "column": 11
+                    },
+                    {
+                      "title": "navigating My Account -> Wishlists -> Add New opens the Create New Wishlist modal",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3276,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:54:04.225Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-af300d63c8e54289c7de",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 38,
+                      "column": 11
+                    },
+                    {
+                      "title": "a logged-in user can access the Create New Wishlist modal from the Wishlists List Page",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 20598,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:54:07.524Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-83f2efee3eda1dcacda0",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 53,
+                      "column": 11
+                    }
+                  ]
+                },
+                {
+                  "title": "Modal structure",
+                  "file": "create-wishlist.spec.ts",
+                  "line": 65,
+                  "column": 10,
+                  "specs": [
+                    {
+                      "title": "displays the title \"Create New Wishlist\"",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3006,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:54:28.145Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-6d525019e8708b804810",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 72,
+                      "column": 11
+                    },
+                    {
+                      "title": "is a small, horizontally centered modal",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3345,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:54:31.183Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-8719de172b3a2fa8db0a",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 77,
+                      "column": 11
+                    },
+                    {
+                      "title": "auto-focuses the Wishlist Name field on open",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 21425,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:54:34.553Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-7e382bc0db80acb47509",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 82,
+                      "column": 11
+                    },
+                    {
+                      "title": "shows the Name field placeholder text",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3216,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:54:56.005Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-85472c45414bde642310",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 87,
+                      "column": 11
+                    },
+                    {
+                      "title": "shows the Description field placeholder text",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 22228,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:54:59.242Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-0c551839b32b880ec291",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 92,
+                      "column": 11
+                    },
+                    {
+                      "title": "renders the Description field as a 3-row textarea",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 21301,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:55:21.488Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-421608b2a88daad36bda",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 97,
+                      "column": 11
+                    },
+                    {
+                      "title": "updates the Name counter live as the user types",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 4651,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:55:42.808Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-f3a70d0f78294e38891e",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 102,
+                      "column": 11
+                    },
+                    {
+                      "title": "updates the Description counter live as the user types",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3483,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:55:47.494Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-ea540b47326120d3bd9f",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 110,
+                      "column": 11
+                    },
+                    {
+                      "title": "positions CANCEL to the left of CREATE",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3271,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:55:50.999Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-1a05cfc18a223e4807ce",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 119,
+                      "column": 11
+                    }
+                  ]
+                },
+                {
+                  "title": "Success flow",
+                  "file": "create-wishlist.spec.ts",
+                  "line": 124,
+                  "column": 10,
+                  "specs": [
+                    {
+                      "title": "creates a wishlist with only a valid Name",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 4169,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:55:54.289Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-fb5f42b013cf0e94c309",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 130,
+                      "column": 11
+                    },
+                    {
+                      "title": "creates a wishlist with a valid Name and Description",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 4440,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:55:58.478Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-1f31a98afdab464518fa",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 147,
+                      "column": 11
+                    },
+                    {
+                      "title": "closes the modal after successful creation",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 4485,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:56:02.937Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-dbc69f0c15c7c95253e8",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 163,
+                      "column": 11
+                    },
+                    {
+                      "title": "shows a success toast after successful creation",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 23285,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:56:07.453Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-dcb7ad08bede316ec313",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 172,
+                      "column": 11
+                    },
+                    {
+                      "title": "shows the new wishlist in the table after navigating back to the Wishlists List Page",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 5980,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:56:30.757Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-5bba061eb60a481ea167",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 183,
+                      "column": 11
+                    },
+                    {
+                      "title": "allows creating a second wishlist with a duplicate name",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 26138,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:56:36.752Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-7d2b56f46e6a568dde67",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 198,
+                      "column": 11
+                    },
+                    {
+                      "title": "CANCEL closes the modal without creating a wishlist",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3475,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:02.908Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-7aaae8bea287e6ada225",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 212,
+                      "column": 11
+                    },
+                    {
+                      "title": "allows creating more than one wishlist with no upper limit enforced",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 7689,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:06.403Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-46022f56f9aa4ae16324",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 225,
+                      "column": 11
+                    }
+                  ]
+                },
+                {
+                  "title": "My Account entry point redirect",
+                  "file": "create-wishlist.spec.ts",
+                  "line": 252,
+                  "column": 10,
+                  "specs": [
+                    {
+                      "title": "redirects to the new wishlist's detail page, which starts with 0 items",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 4166,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:14.111Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-8c8f5f50f4602e00b04e",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 253,
+                      "column": 11
+                    }
+                  ]
+                },
+                {
+                  "title": "Boundary values",
+                  "file": "create-wishlist.spec.ts",
+                  "line": 271,
+                  "column": 10,
+                  "specs": [
+                    {
+                      "title": "accepts a 50-character Name and creates the wishlist",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 23761,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:18.297Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-e454e896b089f4c24e4e",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 278,
+                      "column": 11
+                    },
+                    {
+                      "title": "blocks typing beyond 50 characters in Name (hard cap)",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3653,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:42.075Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-53825cef8d9e96475044",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 287,
+                      "column": 11
+                    },
+                    {
+                      "title": "accepts a single-character Name and creates the wishlist",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 4037,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:45.746Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-ee253c84e3f94a921c7c",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 294,
+                      "column": 11
+                    },
+                    {
+                      "title": "accepts a 200-character Description and creates the wishlist",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 4577,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:49.800Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-61daa8a9a164299e5268",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 303,
+                      "column": 11
+                    },
+                    {
+                      "title": "blocks typing beyond 200 characters in Description (hard cap)",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 4856,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:54.396Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-091d269232cc5ddc8b0a",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 313,
+                      "column": 11
+                    },
+                    {
+                      "title": "shows \"50 / 50 characters\" when the Name field reaches its maximum length",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3338,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:57:59.268Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-7d4979eb04c681dd625c",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 320,
+                      "column": 11
+                    }
+                  ]
+                },
+                {
+                  "title": "Validation",
+                  "file": "create-wishlist.spec.ts",
+                  "line": 327,
+                  "column": 10,
+                  "specs": [
+                    {
+                      "title": "keeps CREATE disabled when the Name field is empty",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3374,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:58:02.623Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-6150ecbf69fb37dd191b",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 339,
+                      "column": 11
+                    },
+                    {
+                      "title": "does not create a wishlist even if the disabled CREATE button is force-clicked",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3450,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:58:06.013Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-3c42f7e45de3de6ed234",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 345,
+                      "column": 11
+                    },
+                    {
+                      "title": "keeps CREATE disabled for a whitespace-only Name",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 22159,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:58:09.479Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-5b940d129ad48db86605",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 360,
+                      "column": 11
+                    },
+                    {
+                      "title": "creates a wishlist without entering a Description (optional field)",
+                      "ok": true,
+                      "tags": [],
+                      "tests": [
+                        {
+                          "timeout": 30000,
+                          "annotations": [],
+                          "expectedStatus": "passed",
+                          "projectId": "chromium",
+                          "projectName": "chromium",
+                          "results": [
+                            {
+                              "workerIndex": 0,
+                              "parallelIndex": 0,
+                              "status": "passed",
+                              "duration": 3977,
+                              "errors": [],
+                              "stdout": [],
+                              "stderr": [],
+                              "retry": 0,
+                              "startTime": "2026-09-07T07:58:31.654Z",
+                              "annotations": [],
+                              "attachments": []
+                            }
+                          ],
+                          "status": "expected"
+                        }
+                      ],
+                      "id": "8d58ffaabba49718b794-2a59d16a0c4ad6e699a7",
+                      "file": "create-wishlist.spec.ts",
+                      "line": 367,
+                      "column": 11
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "title": "Logged out",
+              "file": "create-wishlist.spec.ts",
+              "line": 380,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "redirects a logged-out user from the Wishlists List Page to the login page",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 1,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 4103,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:41.931Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "8d58ffaabba49718b794-9eb6938fd58e193772a6",
+                  "file": "create-wishlist.spec.ts",
+                  "line": 387,
+                  "column": 9
+                },
+                {
+                  "title": "redirects a logged-out user from My Account to the login page",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 4080,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:41.856Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "8d58ffaabba49718b794-0139ffd187df3e15f9dc",
+                  "file": "create-wishlist.spec.ts",
+                  "line": 394,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "purchase-flow.spec.ts",
+      "file": "purchase-flow.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Storefront purchase flow - Happy Path",
+          "file": "purchase-flow.spec.ts",
+          "line": 12,
+          "column": 6,
+          "specs": [],
+          "suites": [
+            {
+              "title": "Login",
+              "file": "purchase-flow.spec.ts",
+              "line": 13,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "a customer is redirected to the Homepage after logging in with a valid email and password",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 5341,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:41.847Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "3bbd2960824dc85c4f67-97b2aa9487d69a20d4e8",
+                  "file": "purchase-flow.spec.ts",
+                  "line": 20,
+                  "column": 9
+                }
+              ]
+            },
+            {
+              "title": "Browse, cart, checkout, order history (logged in)",
+              "file": "purchase-flow.spec.ts",
+              "line": 36,
+              "column": 17,
+              "specs": [
+                {
+                  "title": "clicking \"Shop By Collection\" navigates from the Homepage to the PLP",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 5273,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:41.915Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "3bbd2960824dc85c4f67-444a5a542570085354e9",
+                  "file": "purchase-flow.spec.ts",
+                  "line": 41,
+                  "column": 9
+                },
+                {
+                  "title": "the PDP for SKU \"abc\" displays the product name, description, and image",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 22998,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:47.604Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "3bbd2960824dc85c4f67-a80945e8a455059b87fa",
+                  "file": "purchase-flow.spec.ts",
+                  "line": 51,
+                  "column": 9
+                },
+                {
+                  "title": "adding the product to the cart shows a confirmation toast at the top-right",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "passed",
+                          "duration": 5392,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:54:10.645Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "3bbd2960824dc85c4f67-7b0c6f093c7907dd6354",
+                  "file": "purchase-flow.spec.ts",
+                  "line": 64,
+                  "column": 9
+                },
+                {
+                  "title": "completing checkout with a saved address and COD shows the Order Confirmation Page with the Order Number",
+                  "ok": false,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 4,
+                          "parallelIndex": 4,
+                          "status": "timedOut",
+                          "duration": 30045,
+                          "error": {
+                            "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m",
+                            "stack": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                          },
+                          "errors": [
+                            {
+                              "message": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+                            },
+                            {
+                              "location": {
+                                "file": "C:\\ai-zone\\e2e-tests\\tests\\pages\\checkout.page.ts",
+                                "column": 21,
+                                "line": 30
+                              },
+                              "message": "Error: page.waitForURL: Test timeout of 30000ms exceeded.\n=========================== logs ===========================\nwaiting for navigation until \"load\"\n============================================================\n\n   at pages\\checkout.page.ts:30\n\n  28 |   async placeOrder(): Promise<void> {\n  29 |     await this.placeOrderButton.click();\n> 30 |     await this.page.waitForURL(/\\/order-confirmation/);\n     |                     ^\n  31 |   }\n  32 | }\n  33 |\n    at CheckoutPage.placeOrder (C:\\ai-zone\\e2e-tests\\tests\\pages\\checkout.page.ts:30:21)\n    at C:\\ai-zone\\e2e-tests\\tests\\purchase-flow.spec.ts:96:7"
+                            }
+                          ],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:54:16.057Z",
+                          "annotations": [],
+                          "attachments": [
+                            {
+                              "name": "error-context",
+                              "contentType": "text/markdown",
+                              "path": "C:\\ai-zone\\e2e-tests\\test-results\\purchase-flow-Storefront-p-b21b2--Page-with-the-Order-Number-chromium\\error-context.md"
+                            }
+                          ]
+                        }
+                      ],
+                      "status": "unexpected"
+                    }
+                  ],
+                  "id": "3bbd2960824dc85c4f67-26f5259e965039b19a95",
+                  "file": "purchase-flow.spec.ts",
+                  "line": 79,
+                  "column": 9
+                },
+                {
+                  "title": "the newest Order History entry matches the Order Number from the just-placed order",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": -1,
+                          "parallelIndex": -1,
+                          "status": "skipped",
+                          "duration": 0,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:54:46.209Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "skipped"
+                    }
+                  ],
+                  "id": "3bbd2960824dc85c4f67-3a6734d5dc7670b7cae6",
+                  "file": "purchase-flow.spec.ts",
+                  "line": 105,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "registration.spec.ts",
+      "file": "registration.spec.ts",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Registration form",
+          "file": "registration.spec.ts",
+          "line": 8,
+          "column": 6,
+          "specs": [
+            {
+              "title": "loads with expected page content and a disabled Create Account button by default",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 3997,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T07:53:41.867Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1e5aa7b6f95ae669165d-d2ca5b54a617bac68acd",
+              "file": "registration.spec.ts",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "shows the shorter subtitle on a mobile viewport",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "parallelIndex": 5,
+                      "status": "passed",
+                      "duration": 2913,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T07:53:46.161Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1e5aa7b6f95ae669165d-0b4598fdea126b806475",
+              "file": "registration.spec.ts",
+              "line": 24,
+              "column": 7
+            },
+            {
+              "title": "Create Account button becomes enabled once all required fields are valid",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "parallelIndex": 2,
+                      "status": "passed",
+                      "duration": 3244,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T07:53:46.276Z",
+                      "annotations": [],
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "1e5aa7b6f95ae669165d-f20715e8deff5ce42b5c",
+              "file": "registration.spec.ts",
+              "line": 32,
+              "column": 7
+            },
+            {
+              "title": "Sign In link navigates to the Login page",
+              "ok": false,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "parallelIndex": 1,
+                      "status": "failed",
+                      "duration": 7954,
+                      "error": {
+                        "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login/\u001b[39m\nReceived string:  \u001b[31m\"https://lc-uat.digicommerce.cloud/\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    6 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://lc-uat.digicommerce.cloud/create-account\"\u001b[22m\n\u001b[2m    7 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://lc-uat.digicommerce.cloud/\"\u001b[22m\n",
+                        "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login/\u001b[39m\nReceived string:  \u001b[31m\"https://lc-uat.digicommerce.cloud/\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    6 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://lc-uat.digicommerce.cloud/create-account\"\u001b[22m\n\u001b[2m    7 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://lc-uat.digicommerce.cloud/\"\u001b[22m\n\n    at C:\\ai-zone\\e2e-tests\\tests\\registration.spec.ts:51:41",
+                        "location": {
+                          "file": "C:\\ai-zone\\e2e-tests\\tests\\registration.spec.ts",
+                          "column": 41,
+                          "line": 51
+                        },
+                        "snippet": "\u001b[0m \u001b[90m 49 |\u001b[39m     \u001b[36mawait\u001b[39m registrationPage\u001b[33m.\u001b[39msignInLink\u001b[33m.\u001b[39mclick()\u001b[33m;\u001b[39m\n \u001b[90m 50 |\u001b[39m\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 51 |\u001b[39m     \u001b[36mawait\u001b[39m expect(registrationPage\u001b[33m.\u001b[39mpage)\u001b[33m.\u001b[39mtoHaveURL(\u001b[35m/\\/login/\u001b[39m)\u001b[33m;\u001b[39m\n \u001b[90m    |\u001b[39m                                         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 52 |\u001b[39m   })\u001b[33m;\u001b[39m\n \u001b[90m 53 |\u001b[39m\n \u001b[90m 54 |\u001b[39m   test\u001b[33m.\u001b[39mdescribe(\u001b[32m'Field validation'\u001b[39m\u001b[33m,\u001b[39m () \u001b[33m=>\u001b[39m {\u001b[0m"
+                      },
+                      "errors": [
+                        {
+                          "location": {
+                            "file": "C:\\ai-zone\\e2e-tests\\tests\\registration.spec.ts",
+                            "column": 41,
+                            "line": 51
+                          },
+                          "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login/\u001b[39m\nReceived string:  \u001b[31m\"https://lc-uat.digicommerce.cloud/\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    6 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://lc-uat.digicommerce.cloud/create-account\"\u001b[22m\n\u001b[2m    7 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://lc-uat.digicommerce.cloud/\"\u001b[22m\n\n\n  49 |     await registrationPage.signInLink.click();\n  50 |\n> 51 |     await expect(registrationPage.page).toHaveURL(/\\/login/);\n     |                                         ^\n  52 |   });\n  53 |\n  54 |   test.describe('Field validation', () => {\n    at C:\\ai-zone\\e2e-tests\\tests\\registration.spec.ts:51:41"
+                        }
+                      ],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2026-09-07T07:53:46.392Z",
+                      "annotations": [],
+                      "attachments": [
+                        {
+                          "name": "error-context",
+                          "contentType": "text/markdown",
+                          "path": "C:\\ai-zone\\e2e-tests\\test-results\\registration-Registration--28f1e-navigates-to-the-Login-page-chromium\\error-context.md"
+                        }
+                      ],
+                      "errorLocation": {
+                        "file": "C:\\ai-zone\\e2e-tests\\tests\\registration.spec.ts",
+                        "column": 41,
+                        "line": 51
+                      }
+                    }
+                  ],
+                  "status": "unexpected"
+                }
+              ],
+              "id": "1e5aa7b6f95ae669165d-272b0cd1039ab8e11da7",
+              "file": "registration.spec.ts",
+              "line": 46,
+              "column": 7
+            }
+          ],
+          "suites": [
+            {
+              "title": "Field validation",
+              "file": "registration.spec.ts",
+              "line": 54,
+              "column": 8,
+              "specs": [
+                {
+                  "title": "First Name shows a required error when cleared",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 3,
+                          "parallelIndex": 3,
+                          "status": "passed",
+                          "duration": 20718,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:47.543Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "1e5aa7b6f95ae669165d-dd5429ef9c44eb594180",
+                  "file": "registration.spec.ts",
+                  "line": 55,
+                  "column": 9
+                },
+                {
+                  "title": "First Name rejects numeric characters",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 2299,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:49.182Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "1e5aa7b6f95ae669165d-02bd69e5e4379c4b2f56",
+                  "file": "registration.spec.ts",
+                  "line": 63,
+                  "column": 9
+                },
+                {
+                  "title": "Last Name shows a required error when cleared",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 2355,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:49.578Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "1e5aa7b6f95ae669165d-44afec8359586faad9b3",
+                  "file": "registration.spec.ts",
+                  "line": 71,
+                  "column": 9
+                },
+                {
+                  "title": "Last Name rejects numeric characters",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 1795,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:51.522Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "1e5aa7b6f95ae669165d-408ce1e8233d61523b50",
+                  "file": "registration.spec.ts",
+                  "line": 79,
+                  "column": 9
+                },
+                {
+                  "title": "Email shows a required error when cleared",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 1895,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:51.967Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "1e5aa7b6f95ae669165d-e2a12532ed82b6ebf8d2",
+                  "file": "registration.spec.ts",
+                  "line": 87,
+                  "column": 9
+                },
+                {
+                  "title": "Email rejects an invalid format",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 5,
+                          "parallelIndex": 5,
+                          "status": "passed",
+                          "duration": 1877,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:53.345Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "1e5aa7b6f95ae669165d-863332308a6cdcad31f3",
+                  "file": "registration.spec.ts",
+                  "line": 95,
+                  "column": 9
+                },
+                {
+                  "title": "Create Account button stays disabled while Phone Number is empty",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 2,
+                          "parallelIndex": 2,
+                          "status": "passed",
+                          "duration": 1934,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:53.897Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "1e5aa7b6f95ae669165d-1ab414c1706bae2dd1c6",
+                  "file": "registration.spec.ts",
+                  "line": 103,
+                  "column": 9
+                },
+                {
+                  "title": "Phone Number rejects fewer than 10 digits",
+                  "ok": true,
+                  "tags": [],
+                  "tests": [
+                    {
+                      "timeout": 30000,
+                      "annotations": [],
+                      "expectedStatus": "passed",
+                      "projectId": "chromium",
+                      "projectName": "chromium",
+                      "results": [
+                        {
+                          "workerIndex": 6,
+                          "parallelIndex": 1,
+                          "status": "passed",
+                          "duration": 1600,
+                          "errors": [],
+                          "stdout": [],
+                          "stderr": [],
+                          "retry": 0,
+                          "startTime": "2026-09-07T07:53:55.430Z",
+                          "annotations": [],
+                          "attachments": []
+                        }
+                      ],
+                      "status": "expected"
+                    }
+                  ],
+                  "id": "1e5aa7b6f95ae669165d-0e74c3732da8457d9594",
+                  "file": "registration.spec.ts",
+                  "line": 113,
+                  "column": 9
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2026-09-07T07:53:40.659Z",
+    "duration": 295098.859,
+    "expected": 48,
+    "skipped": 1,
+    "unexpected": 2,
+    "flaky": 0
+  }
+}

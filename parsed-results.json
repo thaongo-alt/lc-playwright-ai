@@ -1,0 +1,410 @@
+[
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "clicking \"Add New\" on the Wishlists List Page opens the Create New Wishlist modal",
+    "fullTitle": "clicking \"Add New\" on the Wishlists List Page opens the Create New Wishlist modal",
+    "status": "passed",
+    "duration": 22062,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "navigating My Account -> Wishlists -> Add New opens the Create New Wishlist modal",
+    "fullTitle": "navigating My Account -> Wishlists -> Add New opens the Create New Wishlist modal",
+    "status": "passed",
+    "duration": 3276,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "a logged-in user can access the Create New Wishlist modal from the Wishlists List Page",
+    "fullTitle": "a logged-in user can access the Create New Wishlist modal from the Wishlists List Page",
+    "status": "passed",
+    "duration": 20598,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "displays the title \"Create New Wishlist\"",
+    "fullTitle": "displays the title \"Create New Wishlist\"",
+    "status": "passed",
+    "duration": 3006,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "is a small, horizontally centered modal",
+    "fullTitle": "is a small, horizontally centered modal",
+    "status": "passed",
+    "duration": 3345,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "auto-focuses the Wishlist Name field on open",
+    "fullTitle": "auto-focuses the Wishlist Name field on open",
+    "status": "passed",
+    "duration": 21425,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "shows the Name field placeholder text",
+    "fullTitle": "shows the Name field placeholder text",
+    "status": "passed",
+    "duration": 3216,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "shows the Description field placeholder text",
+    "fullTitle": "shows the Description field placeholder text",
+    "status": "passed",
+    "duration": 22228,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "renders the Description field as a 3-row textarea",
+    "fullTitle": "renders the Description field as a 3-row textarea",
+    "status": "passed",
+    "duration": 21301,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "updates the Name counter live as the user types",
+    "fullTitle": "updates the Name counter live as the user types",
+    "status": "passed",
+    "duration": 4651,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "updates the Description counter live as the user types",
+    "fullTitle": "updates the Description counter live as the user types",
+    "status": "passed",
+    "duration": 3483,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "positions CANCEL to the left of CREATE",
+    "fullTitle": "positions CANCEL to the left of CREATE",
+    "status": "passed",
+    "duration": 3271,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "creates a wishlist with only a valid Name",
+    "fullTitle": "creates a wishlist with only a valid Name",
+    "status": "passed",
+    "duration": 4169,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "creates a wishlist with a valid Name and Description",
+    "fullTitle": "creates a wishlist with a valid Name and Description",
+    "status": "passed",
+    "duration": 4440,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "closes the modal after successful creation",
+    "fullTitle": "closes the modal after successful creation",
+    "status": "passed",
+    "duration": 4485,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "shows a success toast after successful creation",
+    "fullTitle": "shows a success toast after successful creation",
+    "status": "passed",
+    "duration": 23285,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "shows the new wishlist in the table after navigating back to the Wishlists List Page",
+    "fullTitle": "shows the new wishlist in the table after navigating back to the Wishlists List Page",
+    "status": "passed",
+    "duration": 5980,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "allows creating a second wishlist with a duplicate name",
+    "fullTitle": "allows creating a second wishlist with a duplicate name",
+    "status": "passed",
+    "duration": 26138,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "CANCEL closes the modal without creating a wishlist",
+    "fullTitle": "CANCEL closes the modal without creating a wishlist",
+    "status": "passed",
+    "duration": 3475,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "allows creating more than one wishlist with no upper limit enforced",
+    "fullTitle": "allows creating more than one wishlist with no upper limit enforced",
+    "status": "passed",
+    "duration": 7689,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "redirects to the new wishlist's detail page, which starts with 0 items",
+    "fullTitle": "redirects to the new wishlist's detail page, which starts with 0 items",
+    "status": "passed",
+    "duration": 4166,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "accepts a 50-character Name and creates the wishlist",
+    "fullTitle": "accepts a 50-character Name and creates the wishlist",
+    "status": "passed",
+    "duration": 23761,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "blocks typing beyond 50 characters in Name (hard cap)",
+    "fullTitle": "blocks typing beyond 50 characters in Name (hard cap)",
+    "status": "passed",
+    "duration": 3653,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "accepts a single-character Name and creates the wishlist",
+    "fullTitle": "accepts a single-character Name and creates the wishlist",
+    "status": "passed",
+    "duration": 4037,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "accepts a 200-character Description and creates the wishlist",
+    "fullTitle": "accepts a 200-character Description and creates the wishlist",
+    "status": "passed",
+    "duration": 4577,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "blocks typing beyond 200 characters in Description (hard cap)",
+    "fullTitle": "blocks typing beyond 200 characters in Description (hard cap)",
+    "status": "passed",
+    "duration": 4856,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "shows \"50 / 50 characters\" when the Name field reaches its maximum length",
+    "fullTitle": "shows \"50 / 50 characters\" when the Name field reaches its maximum length",
+    "status": "passed",
+    "duration": 3338,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "keeps CREATE disabled when the Name field is empty",
+    "fullTitle": "keeps CREATE disabled when the Name field is empty",
+    "status": "passed",
+    "duration": 3374,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "does not create a wishlist even if the disabled CREATE button is force-clicked",
+    "fullTitle": "does not create a wishlist even if the disabled CREATE button is force-clicked",
+    "status": "passed",
+    "duration": 3450,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "keeps CREATE disabled for a whitespace-only Name",
+    "fullTitle": "keeps CREATE disabled for a whitespace-only Name",
+    "status": "passed",
+    "duration": 22159,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "creates a wishlist without entering a Description (optional field)",
+    "fullTitle": "creates a wishlist without entering a Description (optional field)",
+    "status": "passed",
+    "duration": 3977,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "redirects a logged-out user from the Wishlists List Page to the login page",
+    "fullTitle": "redirects a logged-out user from the Wishlists List Page to the login page",
+    "status": "passed",
+    "duration": 4103,
+    "error": null
+  },
+  {
+    "file": "create-wishlist.spec.ts",
+    "title": "redirects a logged-out user from My Account to the login page",
+    "fullTitle": "redirects a logged-out user from My Account to the login page",
+    "status": "passed",
+    "duration": 4080,
+    "error": null
+  },
+  {
+    "file": "purchase-flow.spec.ts",
+    "title": "a customer is redirected to the Homepage after logging in with a valid email and password",
+    "fullTitle": "a customer is redirected to the Homepage after logging in with a valid email and password",
+    "status": "passed",
+    "duration": 5341,
+    "error": null
+  },
+  {
+    "file": "purchase-flow.spec.ts",
+    "title": "clicking \"Shop By Collection\" navigates from the Homepage to the PLP",
+    "fullTitle": "clicking \"Shop By Collection\" navigates from the Homepage to the PLP",
+    "status": "passed",
+    "duration": 5273,
+    "error": null
+  },
+  {
+    "file": "purchase-flow.spec.ts",
+    "title": "the PDP for SKU \"abc\" displays the product name, description, and image",
+    "fullTitle": "the PDP for SKU \"abc\" displays the product name, description, and image",
+    "status": "passed",
+    "duration": 22998,
+    "error": null
+  },
+  {
+    "file": "purchase-flow.spec.ts",
+    "title": "adding the product to the cart shows a confirmation toast at the top-right",
+    "fullTitle": "adding the product to the cart shows a confirmation toast at the top-right",
+    "status": "passed",
+    "duration": 5392,
+    "error": null
+  },
+  {
+    "file": "purchase-flow.spec.ts",
+    "title": "completing checkout with a saved address and COD shows the Order Confirmation Page with the Order Number",
+    "fullTitle": "completing checkout with a saved address and COD shows the Order Confirmation Page with the Order Number",
+    "status": "timedOut",
+    "duration": 30045,
+    "error": "\u001b[31mTest timeout of 30000ms exceeded.\u001b[39m"
+  },
+  {
+    "file": "purchase-flow.spec.ts",
+    "title": "the newest Order History entry matches the Order Number from the just-placed order",
+    "fullTitle": "the newest Order History entry matches the Order Number from the just-placed order",
+    "status": "skipped",
+    "duration": 0,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "loads with expected page content and a disabled Create Account button by default",
+    "fullTitle": "loads with expected page content and a disabled Create Account button by default",
+    "status": "passed",
+    "duration": 3997,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "shows the shorter subtitle on a mobile viewport",
+    "fullTitle": "shows the shorter subtitle on a mobile viewport",
+    "status": "passed",
+    "duration": 2913,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "Create Account button becomes enabled once all required fields are valid",
+    "fullTitle": "Create Account button becomes enabled once all required fields are valid",
+    "status": "passed",
+    "duration": 3244,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "Sign In link navigates to the Login page",
+    "fullTitle": "Sign In link navigates to the Login page",
+    "status": "failed",
+    "duration": 7954,
+    "error": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mpage\u001b[39m\u001b[2m).\u001b[22mtoHaveURL\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m failed\n\nExpected pattern: \u001b[32m/\\/login/\u001b[39m\nReceived string:  \u001b[31m\"https://lc-uat.digicommerce.cloud/\"\u001b[39m\nTimeout: 5000ms\n\nCall log:\n\u001b[2m  - Expect \"toHaveURL\" with timeout 5000ms\u001b[22m\n\u001b[2m    6 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://lc-uat.digicommerce.cloud/create-account\"\u001b[22m\n\u001b[2m    7 × locator resolved to <html lang=\"en\">…</html>\u001b[22m\n\u001b[2m      - unexpected value \"https://lc-uat.digicommerce.cloud/\"\u001b[22m\n"
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "First Name shows a required error when cleared",
+    "fullTitle": "First Name shows a required error when cleared",
+    "status": "passed",
+    "duration": 20718,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "First Name rejects numeric characters",
+    "fullTitle": "First Name rejects numeric characters",
+    "status": "passed",
+    "duration": 2299,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "Last Name shows a required error when cleared",
+    "fullTitle": "Last Name shows a required error when cleared",
+    "status": "passed",
+    "duration": 2355,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "Last Name rejects numeric characters",
+    "fullTitle": "Last Name rejects numeric characters",
+    "status": "passed",
+    "duration": 1795,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "Email shows a required error when cleared",
+    "fullTitle": "Email shows a required error when cleared",
+    "status": "passed",
+    "duration": 1895,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "Email rejects an invalid format",
+    "fullTitle": "Email rejects an invalid format",
+    "status": "passed",
+    "duration": 1877,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "Create Account button stays disabled while Phone Number is empty",
+    "fullTitle": "Create Account button stays disabled while Phone Number is empty",
+    "status": "passed",
+    "duration": 1934,
+    "error": null
+  },
+  {
+    "file": "registration.spec.ts",
+    "title": "Phone Number rejects fewer than 10 digits",
+    "fullTitle": "Phone Number rejects fewer than 10 digits",
+    "status": "passed",
+    "duration": 1600,
+    "error": null
+  }
+]
